@@ -35,3 +35,8 @@ span{
     width: 260px;
     height: 260px;
 }
+
+a{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}

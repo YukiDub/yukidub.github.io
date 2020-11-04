@@ -1,0 +1,37 @@
+body{
+    background-image: url(background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+}
+
+.header{
+    margin-top: 21%;
+}
+
+h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+
+    color: #FFFFFF;
+}
+
+.logo{
+    background-image: url(logo.png);
+    background-size: cover;
+
+    width: 260px;
+    height: 260px;
+}

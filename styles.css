@@ -112,3 +112,18 @@ a{
         margin-top: 40%;
     }
 }
+
+
+@media only screen and (device-width: 3072px) {
+    h1{
+        font-size: 76px;
+    }
+    span{
+        font-size: 38px;
+    }
+
+    .logo{
+        width: 270px;
+        height: 270px;
+    }
+}

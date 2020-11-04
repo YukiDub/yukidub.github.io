@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient( rgb(207 135 132 / 51%), rgb(90 99 177 / 19%) ), url(background.png);
+    background: linear-gradient( rgb(207 135 132 / 55%), rgb(90 99 177 / 0%) ), url(background.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;

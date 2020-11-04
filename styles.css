@@ -1,10 +1,9 @@
 body{
-    background-image: url(background.png);
+    background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('background.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: black;
 }
 
 .header{
@@ -40,4 +39,76 @@ span{
 a{
     font-size: 30px;
     color: aliceblue;
+}
+
+@media only screen and (device-width: 411px) {
+    .logo {
+        position: absolute;
+        margin-left: 15%;
+    }
+    .text-block {
+        margin-top: 60%;
+    }
+}
+
+@media only screen and (device-width: 720px) {
+    .logo {
+        position: absolute;
+        margin-left: 15%;
+    }
+    .text-block {
+        margin-top: 56%;
+    }
+}
+
+@media only screen and (device-width: 480px) {
+    .logo {
+        position: absolute;
+        margin-left: 17%;
+    }
+    .text-block {
+        margin-top: 56%;
+    }
+}
+
+
+@media only screen and (device-width: 360px) {
+    .logo {
+        position: absolute;
+        margin-left: 12%;
+    }
+    .text-block {
+        margin-top: 75%;
+    }
+}
+
+@media only screen and (device-width: 320px) {
+    .logo {
+        position: absolute;
+        margin-left: 7%;
+    }
+    .text-block {
+        margin-top: 78%;
+    }
+}
+
+@media only screen and (device-width: 375px) {
+    .logo {
+        position: absolute;
+        margin-left: 12%;
+    }
+    .text-block {
+        margin-top: 73%;
+    }
+}
+
+
+@media only screen and (device-width: 768px) {
+    .logo {
+        position: absolute;
+        margin-left: 30%;
+    }
+    .text-block {
+        margin-top: 40%;
+    }
 }
